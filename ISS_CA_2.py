@@ -5,7 +5,7 @@ def find_cube_pairs(targ): # target changed to targ, : added
     for a in range(1, max_num + 1): # : added, changed ranges to range
         for b in range(a, max_num + 1): # : added, changed ranges to range
             if a**3 + b**3 == targ: # 3 * changed to 2 * and : added
-                sol.append((a, b)) # removed semicolon, though it doesn't produce an error even if the 
+                sol.append((a, b)) # removed semicolon, though it doesn't produce an error even if the semicolon is still there. 
     return sol
 
 pairs = find_cube_pairs(1729) # commas removed
